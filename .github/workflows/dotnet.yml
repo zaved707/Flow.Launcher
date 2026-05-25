@@ -7,8 +7,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - dev
-      - master
+      - feature/pinned-results
   pull_request:
 
 jobs:
